@@ -1118,3 +1118,117 @@ java.io.FileNotFoundException: cotxe.json (No such file or directory)
 14-Feb-2020 15:41:34.480 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
 14-Feb-2020 15:52:54.664 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
 14-Feb-2020 15:52:54.677 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Feb-2020 17:17:06.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+17-Feb-2020 17:17:06.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+17-Feb-2020 17:17:06.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+17-Feb-2020 17:17:06.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+17-Feb-2020 17:17:06.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.15.3
+17-Feb-2020 17:17:06.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+17-Feb-2020 17:17:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home
+17-Feb-2020 17:17:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           12.0.1+12
+17-Feb-2020 17:17:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+17-Feb-2020 17:17:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/raulfdez/Desktop/UNI/PTI/1a_Practica
+17-Feb-2020 17:17:06.413 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/raulfdez/Desktop/UNI/PTI/1a_Practica
+17-Feb-2020 17:17:06.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/conf/logging.properties
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/raulfdez/Desktop/UNI/PTI/1a_Practica
+17-Feb-2020 17:17:06.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/raulfdez/Desktop/UNI/PTI/1a_Practica
+17-Feb-2020 17:17:06.417 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/temp
+17-Feb-2020 17:17:06.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/Users/raulfdez/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+17-Feb-2020 17:17:06.455 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Feb-2020 17:17:06.487 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 17:17:06.493 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Feb-2020 17:17:06.495 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Feb-2020 17:17:06.495 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 541 ms
+17-Feb-2020 17:17:06.549 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+17-Feb-2020 17:17:06.549 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+17-Feb-2020 17:17:06.557 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/my_webapp] de la aplicación web
+17-Feb-2020 17:17:06.889 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+17-Feb-2020 17:17:06.932 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/my_webapp] has finished in [374] ms
+17-Feb-2020 17:17:06.933 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/docs] de la aplicación web
+17-Feb-2020 17:17:06.956 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/docs] has finished in [23] ms
+17-Feb-2020 17:17:06.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/manager] de la aplicación web
+17-Feb-2020 17:17:06.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/manager] has finished in [35] ms
+17-Feb-2020 17:17:06.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/examples] de la aplicación web
+17-Feb-2020 17:17:07.209 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/examples] has finished in [217] ms
+17-Feb-2020 17:17:07.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/ROOT] de la aplicación web
+17-Feb-2020 17:17:07.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/ROOT] has finished in [15] ms
+17-Feb-2020 17:17:07.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Despliegue del directorio [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/host-manager] de la aplicación web
+17-Feb-2020 17:17:07.243 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/raulfdez/Desktop/UNI/PTI/1a_Practica/webapps/host-manager] has finished in [18] ms
+17-Feb-2020 17:17:07.245 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Feb-2020 17:17:07.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Feb-2020 17:17:07.253 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 758 ms
+17-Feb-2020 17:25:07.913 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:25:07.968 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:34:48.731 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:34:48.759 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:34:58.771 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:34:58.798 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:35:38.855 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:35:38.883 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:35:48.894 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:35:48.919 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:36:18.963 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:36:18.989 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:37:09.053 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:37:09.079 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:37:59.149 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:37:59.174 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:38:29.215 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:38:29.241 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:40:19.377 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:40:19.404 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+{"sub_model_vehicle":"Electric","num_vehicles":"100","model":"71","dies_lloguer":"16","cotxes":[{"sub_model_vehicle":"Hybrid","num_vehicles":"1","model":"54","dies_lloguer":"1","descompte":"0.0"}],"descompte":"0.0"}
+{"sub_model_vehicle":"Electric","num_vehicles":"100","model":"71","dies_lloguer":"16","cotxes":[{"sub_model_vehicle":"Hybrid","num_vehicles":"1","model":"82","dies_lloguer":"1","descompte":"0.0"}],"descompte":"0.0"}
+{"sub_model_vehicle":"Electric","num_vehicles":"100","model":"71","dies_lloguer":"16","cotxes":[{"sub_model_vehicle":"Electric","num_vehicles":"1","model":"139","dies_lloguer":"19","descompte":"0.0"}],"descompte":"0.0"}
+{"sub_model_vehicle":"Electric","num_vehicles":"100","model":"71","dies_lloguer":"16","cotxes":[{"sub_model_vehicle":"Electric","num_vehicles":"1","model":"139","dies_lloguer":"21","descompte":"0.0"}],"descompte":"0.0"}
+17-Feb-2020 17:51:10.333 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:51:10.359 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:52:00.424 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:52:00.448 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:58:20.921 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:58:20.946 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 17:59:51.058 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 17:59:51.080 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+{"cotxes":[{"sub_model_vehicle":"Electric","num_vehicles":"34","model":"71","dies_lloguer":"24","descompte":"4.0"}]}
+{"cotxes":[{"sub_model_vehicle":"Hybrid","num_vehicles":"99","model":"139","dies_lloguer":"77","descompte":"5.0"}]}
+17-Feb-2020 18:01:51.246 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:01:51.268 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:02:01.283 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:02:01.306 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+{"cotxes":[{"sub_model_vehicle":"Hybrid","num_vehicles":"99","model":"139","dies_lloguer":"77","descompte":"5.0"}]}
+17-Feb-2020 18:07:41.787 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:07:41.808 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:07:51.819 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:07:51.842 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+{}
+{}
+17-Feb-2020 18:09:41.995 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:09:42.016 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:10:02.042 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:10:02.064 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:12:32.264 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:12:32.288 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:12:52.311 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:12:52.333 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:34:03.922 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:34:03.947 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:34:13.957 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:34:13.980 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+{}
+{}
+{}
+{}
+{}
+17-Feb-2020 18:54:55.743 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:54:55.766 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:55:35.815 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:55:35.847 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+17-Feb-2020 18:55:45.858 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
+17-Feb-2020 18:55:45.880 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto

@@ -22,6 +22,7 @@ public class CarRentalList extends HttpServlet {
                     throws ServletException, IOException {
     res.setContentType("text/html");
     PrintWriter out = res.getWriter();
+      out.println("<html><h1>Cotxes</h1>");
     //String nombre = req.getParameter("userid");
     /*cont ++;
     out.println("<html><big>Hola Amigo "+ nombre + "</big><br>"+
@@ -29,25 +30,25 @@ public class CarRentalList extends HttpServlet {
     JSONParser parser = new JSONParser();
 
         try (Reader reader = new FileReader("cotxes.json")) {
-
-            JSONObject jsonObject = (JSONObject) parser.parse(reader);
-            String model = (String) jsonObject.get("model");
-            String sub_model_vehicle = (String) jsonObject.get("sub_model_vehicle");
-            String num_vehicles = (String) jsonObject.get("num_vehicles");
-            String dies_lloguer = (String) jsonObject.get("dies_lloguer");
-            String descompte = (String) jsonObject.get("descompte");
-            out.println("<html><h1>Cotxes</h1>");
-            out.println("<ul>");
-            out.println("<li>Model: "+ model + "</li>");
-            out.println("<li>Sub_Model: "+ sub_model_vehicle + "</li>");
-            out.println("<li>Num Vehicle: "+ num_vehicles + "</li>");
-            out.println("<li>Dies Lloguer: "+ dies_lloguer + "</li>");
-            out.println("<li>Descompte: "+ descompte + "</li>");
-            out.println("</ul>");
-            out.println("</htmls>");
-
-            } catch (IOException e) {
-
+            JSONArray jsonArray = (JSONArray) parser.parse(reader);
+            Iterator i = jsonArray.iterator();
+            while(i.hasNext()) {
+                JSONObject jsonObject = (JSONObject) i.next();
+                String model = (String) jsonObject.get("model");
+                String sub_model_vehicle = (String) jsonObject.get("sub_model_vehicle");
+                String num_vehicles = (String) jsonObject.get("num_vehicles");
+                String dies_lloguer = (String) jsonObject.get("dies_lloguer");
+                String descompte = (String) jsonObject.get("descompte");
+                out.println("<ul>");
+                out.println("<li>Model: "+ model + "</li>");
+                out.println("<li>Sub_Model: "+ sub_model_vehicle + "</li>");
+                out.println("<li>Num Vehicle: "+ num_vehicles + "</li>");
+                out.println("<li>Dies Lloguer: "+ dies_lloguer + "</li>");
+                out.println("<li>Descompte: "+ descompte + "</li>");
+                out.println("</ul>");
+                out.println("</htmls>");
+            }
+        } catch (IOException e) {
             out.println("<html><h1>IO Exception</h1></html>");
             e.printStackTrace();
         } catch (ParseException e) {
