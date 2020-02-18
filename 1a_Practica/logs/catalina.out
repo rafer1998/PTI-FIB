@@ -1232,3 +1232,103 @@ NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED -
 17-Feb-2020 18:55:35.847 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
 17-Feb-2020 18:55:45.858 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Ha comenzado la recarga de Contexto [/my_webapp]
 17-Feb-2020 18:55:45.880 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Se ha completado la recarga de este Contexto
+18-Feb-2020 08:56:09.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-76-generic
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~16.04-b08
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/carles.tornel/projects/PTI/1a_Practica/conf/logging.properties
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2020 08:56:09.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2020 08:56:09.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Feb-2020 08:56:09.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 08:56:09.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 08:56:09.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/carles.tornel/projects/PTI/1a_Practica/temp
+18-Feb-2020 08:56:09.156 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Feb-2020 08:56:09.200 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 08:56:09.207 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2020 08:56:09.211 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 08:56:09.212 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2020 08:56:09.212 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 268 ms
+18-Feb-2020 08:56:09.225 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Feb-2020 08:56:09.225 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+18-Feb-2020 08:56:09.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/my_webapp]
+18-Feb-2020 08:56:09.432 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Feb-2020 08:56:09.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/my_webapp] has finished in [205] ms
+18-Feb-2020 08:56:09.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/ROOT]
+18-Feb-2020 08:56:09.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/ROOT] has finished in [13] ms
+18-Feb-2020 08:56:09.467 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/examples]
+18-Feb-2020 08:56:09.635 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/examples] has finished in [168] ms
+18-Feb-2020 08:56:09.636 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/manager]
+18-Feb-2020 08:56:09.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/manager] has finished in [17] ms
+18-Feb-2020 08:56:09.652 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/docs]
+18-Feb-2020 08:56:09.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/docs] has finished in [7] ms
+18-Feb-2020 08:56:09.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/host-manager]
+18-Feb-2020 08:56:09.668 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/host-manager] has finished in [9] ms
+18-Feb-2020 08:56:09.670 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 08:56:09.675 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 08:56:09.679 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 467 ms
+18-Feb-2020 09:08:30.185 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] has started
+18-Feb-2020 09:08:30.228 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my_webapp] is completed
+{}
+18-Feb-2020 09:13:15.382 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+18-Feb-2020 09:13:15.382 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 09:13:17.386 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 09:13:19.390 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Feb-2020 09:13:19.417 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 09:13:19.418 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 09:13:19.419 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 09:13:19.420 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 09:13:25.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+18-Feb-2020 09:13:25.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+18-Feb-2020 09:13:25.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+18-Feb-2020 09:13:25.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-76-generic
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_242-8u242-b08-0ubuntu3~16.04-b08
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Private Build
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/carles.tornel/projects/PTI/1a_Practica/conf/logging.properties
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Feb-2020 09:13:25.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/carles.tornel/projects/PTI/1a_Practica
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/carles.tornel/projects/PTI/1a_Practica/temp
+18-Feb-2020 09:13:25.470 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+18-Feb-2020 09:13:25.512 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 09:13:25.519 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2020 09:13:25.523 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 09:13:25.524 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2020 09:13:25.524 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["https-jsse-nio-8443"]
+18-Feb-2020 09:13:25.645 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+18-Feb-2020 09:13:25.646 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 379 ms
+18-Feb-2020 09:13:25.657 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Feb-2020 09:13:25.657 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+18-Feb-2020 09:13:25.661 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/my_webapp]
+18-Feb-2020 09:13:25.820 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Feb-2020 09:13:25.841 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/my_webapp] has finished in [180] ms
+18-Feb-2020 09:13:25.842 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/ROOT]
+18-Feb-2020 09:13:25.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/ROOT] has finished in [13] ms
+18-Feb-2020 09:13:25.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/examples]
+18-Feb-2020 09:13:25.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/examples] has finished in [137] ms
+18-Feb-2020 09:13:25.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/manager]
+18-Feb-2020 09:13:26.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/manager] has finished in [15] ms
+18-Feb-2020 09:13:26.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/docs]
+18-Feb-2020 09:13:26.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/docs] has finished in [7] ms
+18-Feb-2020 09:13:26.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/host-manager]
+18-Feb-2020 09:13:26.024 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/carles.tornel/projects/PTI/1a_Practica/webapps/host-manager] has finished in [9] ms
+18-Feb-2020 09:13:26.026 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Feb-2020 09:13:26.031 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+18-Feb-2020 09:13:26.035 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["https-jsse-nio-8443"]
+18-Feb-2020 09:13:26.036 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 390 ms
