@@ -14,11 +14,41 @@ import java.io.IOException;
 import java.io.Reader;
 import java.util.Iterator;
 
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 public class CarRentalList extends HttpServlet {
 
   int cont = 0;
+  public static String getMd5(String input) {
+        try {
 
-  public void doGet(HttpServletRequest req, HttpServletResponse res)
+            // Static getInstance method is called with hashing MD5
+            MessageDigest md = MessageDigest.getInstance("MD5");
+
+            // digest() method is called to calculate message digest
+            //  of an input digest() return array of byte
+            byte[] messageDigest = md.digest(input.getBytes());
+
+            // Convert byte array into signum representation
+            BigInteger no = new BigInteger(1, messageDigest);
+
+            // Convert message digest into hex value
+            String hashtext = no.toString(16);
+            while (hashtext.length() < 32) {
+                hashtext = "0" + hashtext;
+            }
+            return hashtext;
+        }
+
+        // For specifying wrong message digest algorithms
+        catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void doGet(HttpServletRequest req, HttpServletResponse res)
                     throws ServletException, IOException {
 
       String user = req.getParameter("userid");
@@ -40,8 +70,8 @@ public class CarRentalList extends HttpServlet {
       }
 
         res.setContentType("text/html");
-
-      if (req.getParameter("password").equals(password))
+        String md =  getMd5(req.getParameter("password"));
+      if (md.equals(password))
 
     {
 

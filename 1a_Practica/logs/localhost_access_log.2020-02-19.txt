@@ -1,0 +1,15 @@
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:34 +0100] "GET /my_webapp/carrental_home.html HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:37 +0100] "GET /my_webapp/carrental_form_list.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:41 +0100] "POST /my_webapp/list HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:46 +0100] "POST /my_webapp/list HTTP/1.1" 200 872
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:55 +0100] "GET /my_webapp/carrental_form_new.html HTTP/1.1" 200 1103
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:25:56 +0100] "GET /my_webapp/new?model_vehicle=54&sub_model_vehicle=Hybrid&dies_lloguer=1&num_vehicles=1&descompte=0.0&llogar=Submit+%28GET%29 HTTP/1.1" 200 59
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:33:58 +0100] "GET /my_webapp/carrental_home.html HTTP/1.1" 200 347
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:34:05 +0100] "POST /my_webapp/list HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:34:12 +0100] "POST /my_webapp/list HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:34:17 +0100] "POST /my_webapp/list HTTP/1.1" 200 28
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:38:02 +0100] "GET /my_webapp/carrental_form_list.html HTTP/1.1" 200 635
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:38:06 +0100] "POST /my_webapp/list HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:38:25 +0100] "POST /my_webapp/list HTTP/1.1" 200 138
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:38:56 +0100] "GET /my_webapp/carrental_form_list.html HTTP/1.1" 200 635
+0:0:0:0:0:0:0:1 - - [19/Feb/2020:23:39:01 +0100] "POST /my_webapp/list HTTP/1.1" 200 1121
