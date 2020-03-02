@@ -23,7 +23,6 @@ public class CarRentalNew extends HttpServlet {
                     throws ServletException, IOException {
     res.setContentType("text/html");
     PrintWriter out = res.getWriter();
-    //String nombre = req.getParameter("name")
       JSONObject obj = new JSONObject();
       JSONArray list = new JSONArray();
     File f = new File("cotxes.json");
@@ -63,14 +62,6 @@ public class CarRentalNew extends HttpServlet {
         }
 
         System.out.println(obj);
-
-
-    //out.println("<html><h1>" + car_name + "</h1></html>");
-
-    //cont ++;
-    //out.println("<html><big>Hola Amigo "+ nombre + "</big><br>"+
-               // cont + " Accesos desde su carga.</html>");
-    //out.println(req);
   }
 
   public void doPost(HttpServletRequest req, HttpServletResponse res)
